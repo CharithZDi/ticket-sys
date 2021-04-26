@@ -1,0 +1,26 @@
+{
+  "name": "yt-subs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zodiac",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord-giveaways": "^4.4.3",
+    "discord.js": "^12.5.3",
+    "discord.js-pagination": "^1.0.3",
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.3",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.6.1",
+    "random-puppy": "^1.1.0",
+    "request-promise-native": "^1.0.9",
+    "sourcebin_js": "*"
+  },
+  "keywords": [],
+  "description": ""
+}
