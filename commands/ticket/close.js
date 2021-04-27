@@ -7,10 +7,7 @@ module.exports = {
 	name: 'close',
 	category: 'Ticket',
 	description: 'Closes the ticket.',
-	aliases: [],
-	usage: 'close',
-	userperms: [],
-	botperms: [],
+
 	run: async (client, message, args) => {
 		const member = message.guild.members.cache.get(message.channel.name.split('ticket-').join(''));
 

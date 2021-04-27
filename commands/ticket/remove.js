@@ -2,10 +2,8 @@ module.exports = {
 	name: 'remove',
 	category: 'Ticket',
 	description: 'Removes a member to a specified ticket.',
-	aliases: [],
-	usage: 'remove <member>',
-	userperms: ['ADMINISTRATOR'],
-	botperms: [],
+
+
 	run: async (client, message, args, prefix) => {
 		if(message.channel.name.includes('ticket-')) {
 			const member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.guild.members.cache.find(x => x.user.username === args.slice(0).join(' ') || x.user.username === args[0]);
